@@ -3,7 +3,7 @@ Android E-Shop type of application which is my final year project
 
 # Figure 1
 
-<img width="784" alt="Question 1" src="https://github.com/Rakibul66/CGPA-/blob/main/aust-cse-cgpa-calculator-master/sc/1605201981611.png">
+<img width="784" alt="Question 1" src="https://github.com/Rakibul66/E-Nursery/blob/main/1609581211747.png">
 
 
 # Figure 2
