@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "491979594439",
+    "firebase_url": "https://onlinedailygroceries.firebaseio.com",
+    "project_id": "onlinedailygroceries",
+    "storage_bucket": "onlinedailygroceries.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491979594439:android:9ce5514a313c4db3223ce2",
+        "android_client_info": {
+          "package_name": "com.nursery.recipeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491979594439-5srdfsjk8alhrkpam606ctugi6onkvmu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nursery.recipeapp",
+            "certificate_hash": "3c5ab3e2cc64d7ffd227ad8d2a6606ecdb4c8646"
+          }
+        },
+        {
+          "client_id": "491979594439-0uc9h3drafj06ql6s8d2es5dodqodoql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBz2IyK5KvkDY5eLZPa1sua7LXicdOeeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491979594439-0uc9h3drafj06ql6s8d2es5dodqodoql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491979594439:android:a081dc6cca8e9758223ce2",
+        "android_client_info": {
+          "package_name": "com.rajendra.onlinedailygroceries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491979594439-7vcf9tr7q872k1c1u1nee91ii0ep0kqv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rajendra.onlinedailygroceries",
+            "certificate_hash": "3c5ab3e2cc64d7ffd227ad8d2a6606ecdb4c8646"
+          }
+        },
+        {
+          "client_id": "491979594439-0uc9h3drafj06ql6s8d2es5dodqodoql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBz2IyK5KvkDY5eLZPa1sua7LXicdOeeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491979594439-0uc9h3drafj06ql6s8d2es5dodqodoql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

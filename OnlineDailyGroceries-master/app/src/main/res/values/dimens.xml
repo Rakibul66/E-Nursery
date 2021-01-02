@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="headerTextSize">22sp</dimen>
+    <dimen name="contentTextSize">16dp</dimen>
+    <dimen name="sidePadding">10dp</dimen>
+    <dimen name="topPadding">10dp</dimen>
+    <dimen name="bottomPadding">10dp</dimen>
+    <dimen name="CrListPadding">16dp</dimen>
+</resources>

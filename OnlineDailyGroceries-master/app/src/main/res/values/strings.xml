@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">E-Nursery</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="divisions">
+        <item>Rajshahi</item>
+        <item>Barishal</item>
+        <item>Chittagong</item>
+        <item>Dhaka</item>
+        <item>Mymensingh</item>
+        <item>Khulna</item>
+        <item>Rangpur</item>
+        <item>Sylhet</item>
+    </string-array>
+
+    <string-array name="Categories">
+        <item>Flowers</item>
+        <item>Plants</item>
+        <item>Trees</item>
+        <item>Fruits</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.PostProductActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:textSize="34sp"
+                        android:textColor="@color/colorBlack"
+                        android:textStyle="bold"/>
+
+                    <ImageView
+                        android:id="@+id/back_post_hotel"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/ic_baseline_close_24"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Add a new Product"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorBlack"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/background_white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Name"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorBlack"/>
+
+                    <View
+                        android:id="@+id/divider_one"
+                        android:layout_width="1dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        android:background="@color/colorBlack"
+                        android:layout_marginStart="100dp"/>
+
+                    <EditText
+                        android:id="@+id/hotel_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="5dp"
+                        android:layout_toEndOf="@id/divider_one"
+                        android:background="@drawable/background_white"
+                        android:hint="product Name"
+                        android:inputType="text"
+                        android:textColor="@color/colorBlack"
+                        android:textColorHint="@color/colorBlack"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Division"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorBlack"/>
+
+                    <View
+                        android:id="@+id/divider_four"
+                        android:layout_width="1dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        android:background="@color/colorBlack"
+                        android:layout_marginStart="100dp"/>
+
+                    <Spinner
+                        android:id="@+id/post_division_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toEndOf="@id/divider_four"
+                        android:background="@color/colorWhite"
+                        android:entries="@array/divisions"
+                        android:popupBackground="@color/colorWhite"/>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/dropdown"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Address 1"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorBlack"/>
+
+                    <View
+                        android:id="@+id/divider_two"
+                        android:layout_width="1dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        android:background="@color/colorBlack"
+                        android:layout_marginStart="100dp"/>
+
+                    <EditText
+                        android:id="@+id/district"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="5dp"
+                        android:layout_toEndOf="@id/divider_two"
+                        android:background="@drawable/background_white"
+                        android:textColor="@color/colorBlack"
+                        android:inputType="text"
+                        android:hint="District"
+                        android:textColorHint="@color/colorBlack"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Address 2"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorBlack"/>
+
+                    <View
+                        android:id="@+id/divider_three"
+                        android:layout_width="1dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        android:background="@color/colorBlack"
+                        android:layout_marginStart="100dp"/>
+
+                    <EditText
+                        android:id="@+id/local_area"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="5dp"
+                        android:layout_toEndOf="@id/divider_three"
+                        android:background="@drawable/background_white"
+                        android:textColor="@color/colorBlack"
+                        android:inputType="text"
+                        android:hint="Local Area"
+                        android:textColorHint="@color/colorBlack"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Contact"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorBlack"/>
+
+                    <View
+                        android:id="@+id/divider_nine"
+                        android:layout_width="1dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        android:background="@color/colorBlack"
+                        android:layout_marginStart="100dp"/>
+
+                    <EditText
+                        android:id="@+id/contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="5dp"
+                        android:layout_toEndOf="@id/divider_nine"
+                        android:background="@drawable/background_white"
+                        android:textColor="@color/colorBlack"
+                        android:inputType="number"
+                        android:hint="01*********"
+                        android:textColorHint="@color/colorBlack"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Price"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorBlack"/>
+
+                    <View
+                        android:id="@+id/divider_five"
+                        android:layout_width="1dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        android:background="@color/colorBlack"
+                        android:layout_marginStart="100dp"/>
+
+                    <EditText
+                        android:id="@+id/price"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="5dp"
+                        android:layout_toEndOf="@id/divider_five"
+                        android:background="@drawable/background_white"
+                        android:textColor="@color/colorBlack"
+                        android:inputType="number"
+                        android:hint="Product Price"
+                        android:textColorHint="@color/colorBlack"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Picture"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorBlack"/>
+
+                    <View
+                        android:id="@+id/divider_seven"
+                        android:layout_width="1dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        android:background="@color/colorBlack"
+                        android:layout_marginStart="100dp"/>
+
+                    <RelativeLayout
+                        android:id="@+id/ring"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@id/divider_seven"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/ring_white">
+
+                        <View
+                            android:layout_width="8dp"
+                            android:layout_height="8dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/oval_white"/>
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/choose_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toEndOf="@id/ring"
+                        android:layout_marginStart="5dp"
+                        android:text="Select from gallery"
+                        android:textSize="16sp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/colorBlack"/>
+
+                    <ImageView
+                        android:id="@+id/selected_image"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_white">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Description"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorBlack"/>
+
+                    <View
+                        android:id="@+id/divider_six"
+                        android:layout_width="1dp"
+                        android:layout_height="115dp"
+                        android:layout_centerVertical="true"
+                        android:background="@color/colorBlack"
+                        android:layout_marginStart="100dp"/>
+
+                    <EditText
+                        android:id="@+id/description"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="top"
+                        android:paddingTop="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="5dp"
+                        android:layout_toEndOf="@id/divider_six"
+                        android:background="@drawable/background_white"
+                        android:textColor="@color/colorBlack"
+                        android:inputType="text|textMultiLine"
+                        android:hint="Write some details about this product"
+                        android:textColorHint="@color/colorBlack"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/post_hotel_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/background_green">
+
+                    <TextView
+                        android:id="@+id/tv_post_hotel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="Continue"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
+
+                    <ProgressBar
+                        android:id="@+id/post_hotel_progress_bar"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:visibility="gone"
+                        android:indeterminateTint="@color/colorWhite"
+                        android:layout_centerInParent="true"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

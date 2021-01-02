@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ android:gravity="center"
+    android:padding="15dp"
+    tools:context=".Signing.SignActivity">
+
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:src="@drawable/shoppinart"
+        android:layout_height="100dp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/sign_in_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/ic_baseline_call_24"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Sign In with Phone"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:background="@drawable/background_green"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/sign_in_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:gravity="center"
+        android:text="Sign In with Email"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:background="@drawable/background_green"
+        android:textStyle="bold"/>
+
+    <ProgressBar
+        android:id="@+id/bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-Nursery 1.0"
+       android:layout_marginTop="40dp"
+        android:textSize="15sp"
+        android:textColor="@color/colorBlack"
+        />
+
+
+</LinearLayout>

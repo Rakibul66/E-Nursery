@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFF"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/ivImage2"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/shop"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:text="Shop Name"
+        android:textSize="20sp"
+        android:background="@drawable/boarder"
+        android:textStyle="bold"
+        android:id="@+id/txtRecipeName"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:background="@drawable/boarder"
+        android:text="Description"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:id="@+id/txtDescription"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/ic_baseline_call_24"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:background="@drawable/boarder"
+        android:text="Contact"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:gravity="end"
+        android:id="@+id/txtPrice"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+<!--        <Button-->
+<!--            android:id="@+id/btnUpdate"-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:backgroundTint="@color/colorPrimary"-->
+<!--            android:text="Update"-->
+<!--            android:textSize="22sp"-->
+<!--            android:textColor="#ffffff"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:onClick="btnUpdateRecipe"-->
+<!--            />-->
+<!--        <Button-->
+<!--            android:id="@+id/btnDelete"-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:backgroundTint="@color/colorPrimary"-->
+<!--            android:text="Delete"-->
+<!--            android:textSize="22sp"-->
+<!--            android:textColor="#ffffff"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:onClick="btnDeleteRecipe"-->
+<!--            />-->
+
+    </RelativeLayout>
+
+
+</LinearLayout>
